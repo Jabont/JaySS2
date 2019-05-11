@@ -1,2 +1,2 @@
-# jayss2
+# JaySS 2
 a new version of jayss
