@@ -1,19 +1,20 @@
 @import url("box.css");
 :root{
-	--round-size:7px;
-	--shadow-size:7px;
+	--shadow-value:0 5px 10px #0000001a;
+	--size-of-round:var(--size-m);
+	--size-of-sp:var(--size-m);
 }
 
-/*---- Blank Space ----*/
-sp{
-	display: block;
-	position: relative;
-}
-sp{height: var(--size-m)}
+/*---- Blank Space and Line ----*/
 hr{
 	border-style: ridge;
 	margin: 1rem 0;
 }
+sp{
+	display: block;
+	position: relative;
+}
+sp{height: var(--size-of-sp)}
 sp.px{height: var(--size-px)}
 sp.xs{height: var(--size-xs)}
 sp.vs{height: var(--size-vs)}
@@ -26,10 +27,29 @@ sp.xl{height: var(--size-xl)}
 sp.xx{height: var(--size-xx)}
 sp.xxxl{height: var(--size-xxxl)}
 
-/*---- Margin ----*/
+/*---- Margin & Padding ----*/
 .no-mg{
 	margin: 0;
 }
 .margin{
 	margin: 1rem;
 }
+
+/*---- Shadow & Rounded ----*/
+.shadow{
+	box-shadow:var(--shadow-value);
+}
+.round{
+	border-radius: var(--size-of-round);
+}
+.round-px{border-radius: var(--size-px)}
+.round-xs{border-radius: var(--size-xs)}
+.round-vs{border-radius: var(--size-vs)}
+.round-s{border-radius: var(--size-s)}
+.round-m{border-radius: var(--size-m)}
+.round-rm{border-radius: var(--size-rm)}
+.round-l{border-radius: var(--size-l)}
+.round-vl{border-radius: var(--size-vl)}
+.round-xl{border-radius: var(--size-xl)}
+.round-xx{border-radius: var(--size-xx)}
+.round-xxxl{border-radius: var(--size-xxxl)}
