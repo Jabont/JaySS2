@@ -1,0 +1,28 @@
+:root{
+	--vblack:#000;
+	--red:#f44336;
+	--red-1:#ffebee;
+}
+
+[class^='cl'], [class*=' cl']{
+	color:var(--c);
+	fill:var(--c);
+}
+[class^='bg'], [class*=' bg']{
+	background-color:var(--c);
+}
+
+
+.cl-red,
+.bg-red,
+.hover-cl-red:hover,
+.hover-bg-red:hover{
+	--c:var(--red);
+}
+.cl-red-1,
+.bg-red-1,
+.hover-cl-red-1:hover,
+.hover-bg-red-1:hover{
+	--c:var(--red-1);
+}
+

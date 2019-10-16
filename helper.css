@@ -1,0 +1,23 @@
+@import url("box.css");
+:root{
+	--round-size:7px;
+	--shadow-size:7px;
+}
+
+/*---- Blank Space ----*/
+sp{
+	display: block;
+	position: relative;
+	height: var(--size-m);
+}
+sp.px{height: var(--size-px)}
+sp.xs{height: var(--size-xs)}
+sp.vs{height: var(--size-vs)}
+sp.s{height: var(--size-s)}
+sp.m{height: var(--size-m)}
+sp.rm{height: var(--size-rm)}
+sp.l{height: var(--size-l)}
+sp.vl{height: var(--size-vl)}
+sp.xl{height: var(--size-xl)}
+sp.xx{height: var(--size-xx)}
+sp.xxxl{height: var(--size-xxxl)}
