@@ -3,6 +3,8 @@
 	--shadow-value:0 5px 10px #0000001a;
 	--size-of-round:var(--size-m);
 	--size-of-sp:var(--size-m);
+	--size-of-pd:var(--size-m);
+	--size-of-mg:var(--size-rm);
 }
 
 /*---- Blank Space and Line ----*/
@@ -32,9 +34,37 @@ sp.xxxl{height: var(--size-xxxl)}
 	margin: 0;
 }
 .margin{
-	margin: 1rem;
+	margin: var(--size-of-mg);
 }
-
+.no-pd{
+	margin: 0;
+}
+.padding,
+.pd{
+	padding: var(--size-of-pd);
+}
+.padding-px,
+.pd-px{padding: var(--size-px)}
+.padding-xs,
+.pd-xs{padding: var(--size-xs)}
+.padding-vs,
+.pd-vs{padding: var(--size-vs)}
+.padding-s,
+.pd-s{padding: var(--size-s)}
+.padding-m,
+.pd-m{padding: var(--size-m)}
+.padding-rm,
+.pd-rm{padding: var(--size-rm)}
+.padding-l,
+.pd-l{padding: var(--size-l)}
+.padding-vl,
+.pd-vl{padding: var(--size-vl)}
+.padding-xl,
+.pd-xl{padding: var(--size-xl)}
+.padding-xx,
+.pd-xx{padding: var(--size-xx)}
+.padding-xxxl,
+.pd-xxxl{padding: var(--size-xxxl)}
 /*---- Shadow & Rounded ----*/
 .shadow{
 	box-shadow:var(--shadow-value);
@@ -53,3 +83,9 @@ sp.xxxl{height: var(--size-xxxl)}
 .round-xl{border-radius: var(--size-xl)}
 .round-xx{border-radius: var(--size-xx)}
 .round-xxxl{border-radius: var(--size-xxxl)}
+
+.card{
+	border-radius: var(--size-of-round);
+	background-color: #fff;
+	padding: var(--size-of-pd);
+}
