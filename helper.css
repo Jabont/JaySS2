@@ -8,7 +8,11 @@
 sp{
 	display: block;
 	position: relative;
-	height: var(--size-m);
+}
+sp{height: var(--size-m)}
+hr{
+	border-style: ridge;
+	margin: 1rem 0;
 }
 sp.px{height: var(--size-px)}
 sp.xs{height: var(--size-xs)}
@@ -21,3 +25,11 @@ sp.vl{height: var(--size-vl)}
 sp.xl{height: var(--size-xl)}
 sp.xx{height: var(--size-xx)}
 sp.xxxl{height: var(--size-xxxl)}
+
+/*---- Margin ----*/
+.no-mg{
+	margin: 0;
+}
+.margin{
+	margin: 1rem;
+}
