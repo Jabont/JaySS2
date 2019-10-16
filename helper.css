@@ -31,13 +31,13 @@ sp.xxxl{height: var(--size-xxxl)}
 
 /*---- Margin & Padding ----*/
 .no-mg{
-	margin: 0;
+	margin: 0 !important;
 }
 .margin{
 	margin: var(--size-of-mg);
 }
 .no-pd{
-	margin: 0;
+	margin: 0 !important;
 }
 .padding,
 .pd{
@@ -87,5 +87,5 @@ sp.xxxl{height: var(--size-xxxl)}
 .card{
 	background-color: #fff;
 	border-radius: var(--size-of-round);
-	padding: var(--size-of-pd);
+	padding: var(--size-rm);
 }

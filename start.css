@@ -1,9 +1,26 @@
+body{
+	line-height: 1.5;
+}
+h1,h2,h3,h4,h5,h6{
+	line-height: 1.4;
+}
+.clear h1,
+.clear h2,
+.clear h3,
+.clear h4,
+.clear h5,
+.clear h6,
+.clear p,
+.clear ul.list{
+	margin: 0;
+}
 ul{
 	list-style-type: none;
 	margin-block-start: 0;
 	margin-block-end: 0;
 	margin-inline-start: 0;
 	margin-inline-end: 0;
+	padding-inline-start: 0;
 }
 
 ul.list {
@@ -13,8 +30,10 @@ ul.list {
 	margin: 1rem 0;
 }
 ul.list ul {
+	padding-inline-start: 1.6em ;
 	list-style-type: circle;
 }
 ul.list ul ul {
+	padding-inline-start: 1.6em ;
 	list-style-type: square;
 }
