@@ -337,11 +337,11 @@
 
 }
 
-[class^='cl'], [class*=' cl']{
+[class^='cl-'], [class*=' cl-']{
 	color:var(--c);
 	fill:var(--c);
 }
-[class^='bg'], [class*=' bg']{
+[class^='bg-'], [class*=' bg-']{
 	background-color:var(--c);
 }
 .cl-red,
