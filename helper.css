@@ -318,6 +318,12 @@ sp.xxxl{height: var(--size-xxxl)}
 .shadow{
 	box-shadow:var(--shadow-value);
 }
+@/*-- Mobile Version --*/
+@media (max-width: 768px) {
+		.mob-shadow{
+			box-shadow:var(--shadow-value);
+		}
+}
 .round{
 	border-radius: var(--size-of-round);
 }
@@ -332,9 +338,34 @@ sp.xxxl{height: var(--size-xxxl)}
 .round-xl{border-radius: var(--size-xl)}
 .round-xx{border-radius: var(--size-xx)}
 .round-xxxl{border-radius: var(--size-xxxl)}
+@/*-- Mobile Version --*/
+@media (max-width: 768px) {
+		.mob-round{
+			border-radius: var(--size-of-round);
+		}
+		.mob-round-px{border-radius: var(--size-px)}
+		.mob-round-xs{border-radius: var(--size-xs)}
+		.mob-round-vs{border-radius: var(--size-vs)}
+		.mob-round-s{border-radius: var(--size-s)}
+		.mob-round-m{border-radius: var(--size-m)}
+		.mob-round-rm{border-radius: var(--size-rm)}
+		.mob-round-l{border-radius: var(--size-l)}
+		.mob-round-vl{border-radius: var(--size-vl)}
+		.mob-round-xl{border-radius: var(--size-xl)}
+		.mob-round-xx{border-radius: var(--size-xx)}
+		.mob-round-xxxl{border-radius: var(--size-xxxl)}
+}
 
 .card{
 	background-color: #fff;
 	border-radius: var(--size-of-round);
 	padding: var(--size-rm);
+}
+@/*-- Mobile Version --*/
+@media (max-width: 768px) {
+		.mob-card{
+			background-color: #fff;
+			border-radius: var(--size-of-round);
+			padding: var(--size-rm);
+		}
 }
