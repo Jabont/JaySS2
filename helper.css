@@ -317,15 +317,24 @@ sp.xxxl{height: var(--size-xxxl)}
 }
 
 /*---- Shadow & Rounded ----*/
+/*--- Shadow ---*/
 .shadow{
 	box-shadow:var(--shadow-value);
+}
+.no-shadow{
+	box-shadow:none;
 }
 @/*-- Mobile Version --*/
 @media (max-width: 768px) {
 	.mob-shadow{
 		box-shadow:var(--shadow-value);
 	}
+	.mob-no-shadow{
+		box-shadow:none;
+	}
 }
+
+/*--- Rounded ---*/
 .round{
 	border-radius: var(--size-of-round);
 }
@@ -340,6 +349,10 @@ sp.xxxl{height: var(--size-xxxl)}
 .round-xl{border-radius: var(--size-xl)}
 .round-xx{border-radius: var(--size-xx)}
 .round-xxxl{border-radius: var(--size-xxxl)}
+
+.no-round{
+	border-radius: 0;
+}
 @/*-- Mobile Version --*/
 @media (max-width: 768px) {
 	.mob-round{
@@ -356,6 +369,9 @@ sp.xxxl{height: var(--size-xxxl)}
 	.mob-round-xl{border-radius: var(--size-xl)}
 	.mob-round-xx{border-radius: var(--size-xx)}
 	.mob-round-xxxl{border-radius: var(--size-xxxl)}
+	.mob-no-round{
+		border-radius: 0;
+	}
 }
 
 .card{
